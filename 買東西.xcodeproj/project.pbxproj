@@ -13,6 +13,9 @@
 		57BD4DC62658FE67008025D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57BD4DC42658FE67008025D7 /* Main.storyboard */; };
 		57BD4DC82658FE6A008025D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57BD4DC72658FE6A008025D7 /* Assets.xcassets */; };
 		57BD4DCB2658FE6A008025D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57BD4DC92658FE6A008025D7 /* LaunchScreen.storyboard */; };
+		57BD4DD32659033D008025D7 /* TaipeiSansTCBeta-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57BD4DD22659033D008025D7 /* TaipeiSansTCBeta-Bold.ttf */; };
+		57BD4DD526590345008025D7 /* TaipeiSansTCBeta-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57BD4DD426590345008025D7 /* TaipeiSansTCBeta-Regular.ttf */; };
+		57BD4DD7265911FC008025D7 /* Commodity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BD4DD6265911FC008025D7 /* Commodity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		57BD4DC72658FE6A008025D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57BD4DCA2658FE6A008025D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57BD4DCC2658FE6A008025D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57BD4DD22659033D008025D7 /* TaipeiSansTCBeta-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TaipeiSansTCBeta-Bold.ttf"; sourceTree = "<group>"; };
+		57BD4DD426590345008025D7 /* TaipeiSansTCBeta-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TaipeiSansTCBeta-Regular.ttf"; sourceTree = "<group>"; };
+		57BD4DD6265911FC008025D7 /* Commodity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commodity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +62,12 @@
 		57BD4DBD2658FE67008025D7 /* 買東西 */ = {
 			isa = PBXGroup;
 			children = (
+				57BD4DD426590345008025D7 /* TaipeiSansTCBeta-Regular.ttf */,
+				57BD4DD22659033D008025D7 /* TaipeiSansTCBeta-Bold.ttf */,
 				57BD4DBE2658FE67008025D7 /* AppDelegate.swift */,
 				57BD4DC02658FE67008025D7 /* SceneDelegate.swift */,
 				57BD4DC22658FE67008025D7 /* ViewController.swift */,
+				57BD4DD6265911FC008025D7 /* Commodity.swift */,
 				57BD4DC42658FE67008025D7 /* Main.storyboard */,
 				57BD4DC72658FE6A008025D7 /* Assets.xcassets */,
 				57BD4DC92658FE6A008025D7 /* LaunchScreen.storyboard */,
@@ -127,6 +136,8 @@
 				57BD4DCB2658FE6A008025D7 /* LaunchScreen.storyboard in Resources */,
 				57BD4DC82658FE6A008025D7 /* Assets.xcassets in Resources */,
 				57BD4DC62658FE67008025D7 /* Main.storyboard in Resources */,
+				57BD4DD32659033D008025D7 /* TaipeiSansTCBeta-Bold.ttf in Resources */,
+				57BD4DD526590345008025D7 /* TaipeiSansTCBeta-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +151,7 @@
 				57BD4DC32658FE67008025D7 /* ViewController.swift in Sources */,
 				57BD4DBF2658FE67008025D7 /* AppDelegate.swift in Sources */,
 				57BD4DC12658FE67008025D7 /* SceneDelegate.swift in Sources */,
+				57BD4DD7265911FC008025D7 /* Commodity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
